@@ -1,0 +1,8 @@
+; StuffIt.def : Declares the module parameters for the DLL.
+
+LIBRARY      "KickIt"
+DESCRIPTION  'KickIt Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetModule @1
